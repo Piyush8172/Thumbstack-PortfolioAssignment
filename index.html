@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Piyush Gupta - Portfolio</title>
+</head>
+<div>
+    <div>
+        <!-- Navigation Bar -->
+     
+        <nav id="nav">
+            <div class="container">
+                <div class="menu-toggle" onclick="toggleMenu()">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <ul class="nav-items">
+                    <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#portfolio"><i class="fas fa-briefcase"></i> Portfolio</a></li>
+                    <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <!-- Home Section -->
+        <section id="home">
+            <div class="container">
+                <h2>Hi There! &#128075;</h2>
+                <h1>I'M Piyush Gupta</h1>
+                <p>Frontend Developer | Problem Solver | C++ Programmer</p>
+                <p>
+                    Hi Everyone, I am Piyush Gupta from Banda(U.P), India.
+                    I am currently pursuing my B.Tech in Information Technology from Abes Engineering College,Ghaziabad.
+                </p>
+                <p>I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️
+                    <br>I am fluent in classics like C++ and Javascript.
+                    <br>My field of Interest's are building new Web
+                    Technologies and Products.
+                </p>
+                <br>
+                <a href="#portfolio" class="cta-button">View Portfolio</a>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="container">
+
+
+                <!-- Project 1 -->
+                <div class="project">
+                    <img src="Images/newshub.png" alt="Project 1">
+                    <h3>NewsHub</h3>
+                    <p>NewsHub is a news app which that can be used to grab quick daily news bites. If you are
+                        interested in technology , science, health, business and sports then newshub is for you.</p>
+                    <p>Technologies: HTML, CSS, JavaScript, ReactJs, NewsAPI</p>
+                    <a class="cta-button" href="https://github.com/Piyush8172/NewsHub">Source Code</a>
+                </div>
+                <!-- Project 2 -->
+                <div class="project">
+                    <img src="Images/trippy.png" alt="Project 2">
+                    <h3>Trippy</h3>
+                    <p>Trippy is an innovative and responsive tours and travel website that aims to provide users with a
+                        seamless and immersive experience in planning their dream trips</p>
+                    <p>Technologies: HTML, CSS, JavaScript, ReactJs</p>
+                    <a class="cta-button" href="https://github.com/Piyush8172/Trippy">Source Code</a>
+                </div>
+                <!-- Project 3 -->
+                <div class="project">
+                    <img src="Images/textutils.png" alt="Project 3">
+                    <h3>Textutils</h3>
+                    <p>TextUtils is a text tool for efficient character and word counting, enhanced by a stylish dark
+                        mode for a personalized writing experience. Streamline your workflow effortlessl</p>
+                    <p>Technologies: HTML, CSS, JavaScript, ReactJs</p>
+                    <a class="cta-button" href="https://github.com/Piyush8172/textutils">Source
+                        Code</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                
+                <div class="skill">
+                    <h3>C++</h3>
+                    <div class="progress-bar" style="width: 85%;"></div>
+                </div>
+                <div class="skill">
+                    <h3>HTML</h3>
+                    <div class="progress-bar" style="width: 80%;"></div>
+                </div>
+                <div class="skill">
+                    <h3>CSS</h3>
+                    <div class="progress-bar" style="width: 75%;"></div>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <div class="progress-bar" style="width: 70%;"></div>
+                </div>
+                <div class="skill">
+                    <h3>ReactJs</h3>
+                    <div class="progress-bar" style="width: 60%;"></div>
+                </div>
+                <div class="skill">
+                    <h3>Sql</h3>
+                    <div class="progress-bar" style="width: 90%;"></div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <form action="#" method="post" id="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <input type="submit" value="Send Message" class="cta-button">
+                </form>
+            </div>
+        </section>
+    </div>
+    <footer style="color: white;">
+        <center>&copy; 2024 Piyush Gupta</center>
+    </footer>
+    <script src="script.js">
+
+    </script>
+    </body>
+
+</html>
